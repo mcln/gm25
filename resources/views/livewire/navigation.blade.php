@@ -70,7 +70,7 @@
                 <form action="{{ route('search') }}" method="GET" class="flex">
                     <x-input icon="search" type="text" name="search" placeholder="¿Qué quieres aprender?"
                         class="rounded-sm pl-10 px-4 focus:ring-4 focus:ring-azul-electrico" />
-                    {{-- <button type="submit" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Buscar</button> --}}
+                        <button type="submit" class="ml-2 px-4 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Buscar</button> 
                 </form>
             </div>
 

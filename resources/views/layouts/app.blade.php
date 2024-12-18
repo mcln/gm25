@@ -12,9 +12,6 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
-    {{-- WireUI --}}
-    @wireUiScripts
-
     <!-- Scripts Tailwind y Alpine -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 
@@ -23,7 +20,10 @@
 
     {{-- Favicon --}}
     <link rel="icon" href="https://res.cloudinary.com/dbltc2gr7/image/upload/v1694464911/images_guiamath/favicon-16x16_mvqhrl.png" type="image/x-icon">
-    
+
+    {{-- WireUI --}}
+    @wireUiScripts
+    <script src="//unpkg.com/alpinejs" defer></script>
 
     @yield('css')
 </head>
